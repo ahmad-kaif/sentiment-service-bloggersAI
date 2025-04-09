@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Flask/Misc environment variables
+*.env
+*.env.*
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Test and coverage outputs
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+*.cover
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Logs
+*.log
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# SQLite database files
+*.sqlite3
+*.db
+
+# Pipenv/Poetry
+Pipfile.lock
+poetry.lock
